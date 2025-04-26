@@ -51,6 +51,9 @@ All the styles for the app
   flex-direction: column;
   height: 100vh;
   background-color: #ffffff;
+  position: relative;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100vw; /* Ensure it doesn't exceed parent width */
 }
 
 .screen.property-listing {
@@ -73,19 +76,7 @@ All the styles for the app
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.back-button,
-.search-button,
-.notification-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.reset-button {
+.back-button {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -96,16 +87,37 @@ All the styles for the app
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
 
 .header-actions {
   display: flex;
   gap: 16px;
+  z-index: 10;
+}
+
+.search-button,
+.notification-button,
+.more-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Content Styles */
 .content {
-  flex: 1;
+  flex: 1;  
+  overflow-y: auto;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  background: linear-gradient(180deg, #f8fafc 0%, #f1e9db 100%);
+}
+
+.container {
+  padding: 0 16px;
 }
 
 .property-listing .content {
@@ -114,7 +126,6 @@ All the styles for the app
   justify-content: space-between;
   overflow-y: auto;
   padding: 16px;
-  background: linear-gradient(135deg, #f8fafc 0%, #f3e1c0 100%);
 }
 
 /* Title & Subtitle */
@@ -349,10 +360,26 @@ All the styles for the app
   background-color: #3730A3;
 }
 
+/* Reset Button */
+.reset-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
 /* Footer & Navigation */
 .footer {
-  margin-top: 24px;
-  padding: 20px 0;
+  width: 100%; /* Match parent width */
+  margin-top: 0;
+  padding: 0;
 }
 
 .apply-filters-button {
@@ -375,7 +402,7 @@ All the styles for the app
 .bottom-navigation {
   position: sticky;
   bottom: 0;
-  width: 300px;
+  width: 100%; /* Use 100% not 100vw */
   display: flex;
   justify-content: space-around;
   padding: 16px;
