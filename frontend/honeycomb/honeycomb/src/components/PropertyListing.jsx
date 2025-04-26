@@ -1,15 +1,33 @@
-import React from "react";
-import Layout from "./Layout";
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchListings } from '../store/listingStore'; // Adjust the path as needed
+import BottomNavigation from "./BottomNavigation";
 
-class PropertyListing extends React.Component {
-  render() {
-    const { onViewDetails, onBack, onFavorites } = this.props;
-    return (
-      <Layout 
-        showBackButton={true}
-        onBack={onBack}
-        activeIcon="home"
-      >
+const PropertyListing = () => {
+  const dispatch = useDispatch();
+  const { items, loading, error } = useSelector((state) => state.listings);
+
+  useEffect(() => {
+    dispatch(fetchListings());
+  }, [dispatch]);
+
+  useEffect(() => {
+    if (!loading && items.length > 0) {
+      console.log('Listings from server:', items);
+    }
+  }, [loading, items]);
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error}</div>;
+
+  return (
+    <div className="screen property-listing">
+      <div className="header">
+        <button className="back-button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="#FF7A59" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
         <div className="header-actions">
           <button className="search-button">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,8 +85,10 @@ class PropertyListing extends React.Component {
             </svg>
           </button>
         </div>
+      </div>
 
-        <div className="property-image-container" onClick={onViewDetails}>
+      <div className="content">
+        <div className="property-image-container">
           <img src="https://i.ss.lv/gallery/7/1354/338462/flats-riga-centre-67692330.800.jpg" alt="Property" className="property-image" />
           <div className="property-info-overlay">
             <h2 className="property-title">Test Street</h2>
@@ -125,7 +145,7 @@ class PropertyListing extends React.Component {
               />
             </svg>
           </button>
-          <button className="action-button blue" onClick={onFavorites}>
+          <button className="action-button blue">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
@@ -140,9 +160,11 @@ class PropertyListing extends React.Component {
             </svg>
           </button>
         </div>
-      </Layout>
-    );
-  }
-}
+
+        <BottomNavigation activeIcon="home" />
+      </div>
+    </div>
+  );
+};
 
 export default PropertyListing;
