@@ -1,11 +1,5 @@
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy.orm import Session
-from app import database, models
-from pydantic import BaseModel
-from typing import List, Optional
-from datetime import datetime
-from starlette import status
 from .routers import apartments  # Import your apartments router
 
 app = FastAPI(title="FastAPI Boilerplate")
@@ -18,11 +12,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Create database tables on startup
-@app.on_event("startup")
-async def startup():
-    database.Base.metadata.create_all(bind=database.engine)
 
 @app.get("/")
 async def root():

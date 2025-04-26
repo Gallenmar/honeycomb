@@ -2,7 +2,7 @@
 Reference Models 
 DO NOT USE FOR PARSING
 """
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, HttpUrl  
 from typing import Optional, List, Literal, Annotated
 
 

@@ -25,4 +25,5 @@ rm:
 
 restart:
 	make reset
+	make build
 	make run
