@@ -282,7 +282,7 @@ All the styles for the app
   left: 0;
   right: 0;
   padding: 16px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
   color: white;
 }
 
