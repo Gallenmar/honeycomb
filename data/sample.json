@@ -1,55 +1,57 @@
-{
-  "listing_type": "rent",
-  "property_type": "room",
-  "location": {
-    "country": "Latvia",
-    "city": "Riga",
-    "street": "",
-    "district": "Centrs"
-  },
-  "rent_details": {
-    "monthly_rent_eur": 0,
-    "management_fee_winter_eur": 0,
-    "management_fee_summer_eur": 0,
-    "all_utilities_included": true,
-    "payment_terms": "From 20 EUR/day; negotiable based on number of guests and length of stay"
-  },
-  "property_characteristics": {
-    "size_m2": 20,
-    "floor": 2,
-    "high_ceilings": null,
-    "flooring_type": null,
-    "renovated": false,
-    "building_type": null,
-    "courtyard_location": null
-  },
-  "rooms": {
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "bathroom_description": "Shared shower cabins and toilets",
-    "kitchen": true,
-    "kitchen_description": "Shared kitchen with gas stove and cookware",
-    "living_room": false
-  },
-  "appliances": {
-    "furnished": true,
-    "washing_machine": true,
-    "refrigerator": true,
-    "stove": true,
-    "stove_type": "gas",
-    "water_heater": true,
-    "water_heater_type": null,
-    "heating_type": "central"
-  },
-  "outdoor_features": {
-    "courtyard": false,
-    "balcony": false,
-    "parking": false,
-    "parking_type": null
-  },
-  "nearby_infrastructure": {
-    "grocery_distance_min": 3,
-    "transport_distance_min": 1,
-    "points_of_interest": null
+[
+  {
+    "listing_type": "rent",
+    "property_type": "room",
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "",
+      "district": "Centrs"
+    },
+    "rent_details": {
+      "monthly_rent_eur": 200,
+      "management_fee_winter_eur": 0,
+      "management_fee_summer_eur": 0,
+      "all_utilities_included": true,
+      "payment_terms": "From 20 EUR/day; negotiable based on number of guests and length of stay"
+    },
+    "property_characteristics": {
+      "size_m2": 20,
+      "floor": 2,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Shared shower cabins and toilets",
+      "kitchen": true,
+      "kitchen_description": "Shared kitchen with gas stove and cookware",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "gas",
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": "central"
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": 3,
+      "transport_distance_min": 1,
+      "points_of_interest": null
+    }
   }
-}
+]
