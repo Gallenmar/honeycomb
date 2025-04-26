@@ -26,6 +26,3 @@ rm:
 restart:
 	make reset
 	make run
-
-seed:
-	docker exec -it $(CONTAINER_NAME) python -m app.seed
