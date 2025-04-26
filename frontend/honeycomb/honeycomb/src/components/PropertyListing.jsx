@@ -1,18 +1,27 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchListings } from '../store/listingStore'; // Adjust the path as needed
-import BottomNavigation from "./BottomNavigation";
+import { likeItem, dislikeItem, selectItem } from '../store/propertyStore';
+import Layout from "./Layout";
+import info from "../../public/info.svg";
+import like from "../../public/like.svg";
+import dislike from "../../public/dislike.svg";
+import superLike from "../../public/super.svg";
 
 const PropertyListing = () => {
   const dispatch = useDispatch();
   const { items, loading, error } = useSelector((state) => state.listings);
+  const { currentItem, loading: currentItemLoading, error: currentItemError } = useSelector((state) => state.property);
+  const [imageIndex, setImageIndex] = useState(0);
 
   useEffect(() => {
     dispatch(fetchListings());
+    
   }, [dispatch]);
 
   useEffect(() => {
     if (!loading && items.length > 0) {
+      dispatch(selectItem(items[0])); // todo: select random that was not selected before
       console.log('Listings from server:', items);
     }
   }, [loading, items]);
@@ -21,13 +30,9 @@ const PropertyListing = () => {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div className="screen property-listing">
+    currentItem && (
+    <Layout activeIcon="home">
       <div className="header">
-        <button className="back-button">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15 18L9 12L15 6" stroke="#FF7A59" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </button>
         <div className="header-actions">
           <button className="search-button">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,83 +92,35 @@ const PropertyListing = () => {
         </div>
       </div>
 
-      <div className="content">
-        <div className="property-image-container">
-          <img src="https://i.ss.lv/gallery/7/1354/338462/flats-riga-centre-67692330.800.jpg" alt="Property" className="property-image" />
-          <div className="property-info-overlay">
-            <h2 className="property-title">Test Street</h2>
-            <h3 className="property-subtitle">1A</h3>
-            <div className="property-features-tags">
-              <span className="feature-tag">Parking</span>
-              <span className="feature-tag">Balcony</span>
-              <span className="feature-tag">Pet-Friendly</span>
-            </div>
+      <div className="property-image-container">
+        <img src={currentItem.image_url[imageIndex]} alt="Property" className="property-image" onClick={() => setImageIndex((imageIndex + 1) % currentItem.image_url.length)} />
+        <div className="property-info-overlay">
+          <h2 className="property-title">Test Street</h2>
+          <h3 className="property-subtitle">1A</h3>
+          <div className="property-features-tags">
+            <span className="feature-tag">Parking</span>
+            <span className="feature-tag">Balcony</span>
+            <span className="feature-tag">Pet-Friendly</span>
           </div>
         </div>
-
-        <div className="property-action-buttons">
-          <button className="action-button red">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
-                fill="#FF7A59"
-                stroke="#FF7A59"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
-          <button className="action-button yellow">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
-                fill="#FFD700"
-                stroke="#FFD700"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
-          <button className="action-button green">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-                fill="#4CAF50"
-                stroke="#4CAF50"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M8 12L11 15L16 10"
-                stroke="white"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
-          <button className="action-button blue">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-                fill="#3730A3"
-                stroke="#3730A3"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path d="M12 8V16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M8 12H16" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-          </button>
-        </div>
-
-        <BottomNavigation activeIcon="home" />
       </div>
-    </div>
+
+      <div className="property-action-buttons">
+        <button className="action-button red">
+          <img src={dislike} alt="dislike" />
+        </button>
+        <button className="action-button yellow">
+          <img src={superLike} alt="super" />
+        </button>
+        <button className="action-button green">
+          <img src={like} alt="like" />
+        </button>
+        <button className="action-button">
+          <img src={dislike} alt="dislike" />
+        </button>
+      </div>
+    </Layout>
+    )
   );
 };
 

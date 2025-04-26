@@ -10,7 +10,7 @@ router = APIRouter(
 
 @router.get("/", summary="Get all apartments")
 def get_apartments(city: str = None, bedrooms: int = None):
-    sample_path = os.path.join(os.path.dirname(__file__), '../../data/sample.json')
+    sample_path = os.path.join(os.path.dirname(__file__), '../../data/merged.json')
     with open(sample_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     if city:

@@ -1,5 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
+
 // Async thunk to fetch listings from the API
 export const fetchListings = createAsyncThunk(
   'listings/fetchListings',
@@ -27,6 +28,7 @@ const listingSlice = createSlice({
         state.error = null;
       })
       .addCase(fetchListings.fulfilled, (state, action) => {
+        state.free
         state.loading = false;
         state.items = action.payload;
       })
@@ -36,5 +38,7 @@ const listingSlice = createSlice({
       });
   },
 });
+
+
 
 export default listingSlice.reducer;
