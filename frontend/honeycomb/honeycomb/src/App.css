@@ -441,3 +441,208 @@ All the styles for the app
     font-size: 14px;
   }
 }
+
+/* PropertyDetails Component Styles */
+
+.screen.property-details {
+  width: 100vw;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.property-details .header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 16px 8px 16px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.property-details .back-button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  padding: 8px;
+}
+
+.property-details .header-actions {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.property-details .search-button,
+.property-details .more-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.property-details .content {
+  flex: 1;
+  padding: 0 16px 16px 16px;
+  overflow-y: auto;
+  background: linear-gradient(180deg, #f8fafc 0%, #f1e9db 100%);
+}
+
+.property-header {
+  margin-top: 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px 16px;
+}
+
+.property-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.property-details-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
+  margin: 0;
+}
+
+.property-rating {
+  display: flex;
+  gap: 8px;
+}
+
+.rating-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.rating-button.red {
+  background: #FF7A59;
+}
+.rating-button.yellow {
+  background: #FFD700;
+}
+.rating-button.green {
+  background: #4CAF50;
+}
+
+.property-description {
+  margin: 16px 0 0 0;
+  color: #374151;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.property-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 24px 0 16px 0;
+}
+
+.tab-button {
+  padding: 8px 20px;
+  border: none;
+  background: #f3f4f6;
+  color: #374151;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tab-button.active {
+  background: #FF7A59;
+  color: #fff;
+}
+
+.property-gallery {
+  margin-bottom: 24px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #e5e7eb;
+  border: 1px solid #f3f4f6;
+}
+
+.property-features {
+  margin-top: 16px;
+}
+
+.features-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 8px;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 15px;
+}
+
+.feature-icon {
+  font-size: 18px;
+}
+
+.feature-text {
+  font-size: 15px;
+  color: #374151;
+}
+
+/* Responsive for PropertyDetails */
+@media (max-width: 600px) {
+  .property-header {
+    padding: 16px 4px;
+    margin-top: 16px;
+  }
+  .property-title {
+    font-size: 18px;
+  }
+  .gallery-image {
+    height: 90px;
+  }
+  .features-list {
+    gap: 8px;
+  }
+}

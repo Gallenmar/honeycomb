@@ -1,16 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchListings } from "../store/listingStore"; // Adjust the path as needed
-import { likeItem, dislikeItem, selectItem, superLikeItem } from "../store/propertyStore";
+import {
+  likeItem,
+  dislikeItem,
+  selectItem,
+  superLikeItem,
+} from "../store/propertyStore";
 import Layout from "./Layout";
 import info from "../../public/info.svg";
 import like from "../../public/like.svg";
 import dislike from "../../public/dislike.svg";
 import superLike from "../../public/super.svg";
+import { useNavigate } from "react-router-dom";
 
 const PropertyListing = () => {
   const dispatch = useDispatch();
   const { items, loading, error } = useSelector((state) => state.listings);
+  const navigate = useNavigate();
   const {
     likedItems,
     dislikedItems,
@@ -27,7 +34,16 @@ const PropertyListing = () => {
 
   useEffect(() => {
     if (!loading && items.length > 0) {
-      dispatch(selectItem(items[0])); // todo: select random that was not selected before
+      dispatch(
+        selectItem(
+          items.filter(
+            (item) =>
+              !likedItems.includes(item.listing_details.listing_id) &&
+              !dislikedItems.includes(item.listing_details.listing_id) &&
+              !superLikedItems.includes(item.listing_details.listing_id)
+          )[0]
+        )
+      ); // todo: select random that was not selected before
       console.log("Listings from server:", items);
     }
   }, [loading, items]);
@@ -145,22 +161,53 @@ const PropertyListing = () => {
             }
           />
           <div className="property-info-overlay">
-            <h2 className="property-title">{currentItem.location.city} {currentItem.location.street}</h2>
-            <h3 className="property-subtitle">{currentItem.rent_details.rent_pricing_eur}€ {currentItem.rent_details.rent_type}</h3>
+            <h2 className="property-title">
+              {currentItem.location.city} {currentItem.location.street}
+            </h2>
+            <h3 className="property-subtitle">
+              {currentItem.rent_details.rent_pricing_eur}€{" "}
+              {currentItem.rent_details.rent_type}
+            </h3>
             <div className="property-features-tags">
-              <span className="feature-tag">{currentItem.outdoor_features.parking ? 'Parking ' + currentItem.outdoor_features.parking_type : 'No Parking'}</span>
-              <span className="feature-tag">{currentItem.property_characteristics.renovated ? 'Renovated' : 'Not Renovated'}</span>
-              <span className="feature-tag">{!currentItem.rent_details.pet_friendly ? 'Pet-Friendly' : 'No Pets'}</span>
+              <span className="feature-tag">
+                {currentItem.outdoor_features.parking
+                  ? "Parking " + currentItem.outdoor_features.parking_type
+                  : "No Parking"}
+              </span>
+              <span className="feature-tag">
+                {currentItem.property_characteristics.renovated
+                  ? "Renovated"
+                  : "Not Renovated"}
+              </span>
+              <span className="feature-tag">
+                {!currentItem.rent_details.pet_friendly
+                  ? "Pet-Friendly"
+                  : "No Pets"}
+              </span>
             </div>
           </div>
         </div>
 
         <div className="property-action-buttons">
           <button className="action-button red">
-            <img src={dislike} alt="dislike" onClick={() => dispatch(dislikeItem(currentItem?.listing_details?.listing_id))}/>
+            <img
+              src={dislike}
+              alt="dislike"
+              onClick={() =>
+                dispatch(dislikeItem(currentItem?.listing_details?.listing_id))
+              }
+            />
           </button>
           <button className="action-button yellow">
-            <img src={superLike} alt="super" onClick={() => dispatch(superLikeItem(currentItem?.listing_details?.listing_id))}/>
+            <img
+              src={superLike}
+              alt="super"
+              onClick={() =>
+                dispatch(
+                  superLikeItem(currentItem?.listing_details?.listing_id)
+                )
+              }
+            />
           </button>
           <button className="action-button green">
             <img
@@ -172,7 +219,11 @@ const PropertyListing = () => {
             />
           </button>
           <button className="action-button">
-            <img src={info} alt="info" />
+            <img
+              src={info}
+              alt="info"
+              onClick={() => navigate("/property-details")}
+            />
           </button>
         </div>
       </Layout>

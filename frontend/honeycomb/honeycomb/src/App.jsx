@@ -5,9 +5,6 @@ import store from './store/store'
 import FilterOptions from './components/FilterOptions'
 import PropertyDetails from './components/PropertyDetails'
 import PropertyListing from './components/PropertyListing'
-import Favorites from './components/Favorites'
-import LikesInterests from './components/LikesInterests'
-import ProfileDetails from './components/ProfileDetails'
 
 function App() {
   return (
@@ -15,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PropertyListing />} />
         <Route path="/filter" element={<FilterOptions />} />
+        <Route path="/property-details" element={<PropertyDetails />} />
       </Routes>
     </Provider>
   )
