@@ -5,21 +5,8 @@ from app import database, models
 from pydantic import BaseModel
 from typing import List, Optional
 from datetime import datetime
-
-# Pydantic models for request/response
-class TodoCreate(BaseModel):
-    title: str
-    description: Optional[str] = None
-
-class TodoResponse(BaseModel):
-    id: int
-    title: str
-    description: Optional[str]
-    completed: bool
-    created_at: datetime
-
-    class Config:
-        from_attributes = True
+from starlette import status
+from .routers import apartments  # Import your apartments router
 
 app = FastAPI(title="FastAPI Boilerplate")
 
@@ -45,35 +32,5 @@ async def root():
 async def health_check():
     return {"status": "healthy"}
 
-# CRUD operations for Todo
-@app.post("/todos/", response_model=TodoResponse)
-async def create_todo(todo: TodoCreate, db: Session = Depends(database.get_db)):
-    db_todo = models.Todo(
-        title=todo.title,
-        description=todo.description
-    )
-    db.add(db_todo)
-    db.commit()
-    db.refresh(db_todo)
-    return db_todo
-
-@app.get("/todos/", response_model=List[TodoResponse])
-async def get_todos(db: Session = Depends(database.get_db)):
-    todos = db.query(models.Todo).all()
-    return todos
-
-@app.get("/todos/{todo_id}", response_model=TodoResponse)
-async def get_todo(todo_id: int, db: Session = Depends(database.get_db)):
-    todo = db.query(models.Todo).filter(models.Todo.id == todo_id).first()
-    if todo is None:
-        raise HTTPException(status_code=404, detail="Todo not found")
-    return todo
-
-@app.put("/todos/{todo_id}/complete")
-async def complete_todo(todo_id: int, db: Session = Depends(database.get_db)):
-    todo = db.query(models.Todo).filter(models.Todo.id == todo_id).first()
-    if todo is None:
-        raise HTTPException(status_code=404, detail="Todo not found")
-    todo.completed = True
-    db.commit()
-    return {"message": "Todo marked as completed"} 
+# Include only the apartments router
+app.include_router(apartments.router) 

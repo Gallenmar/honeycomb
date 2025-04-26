@@ -20,3 +20,5 @@ reset:
 	docker rm $(CONTAINER_NAME) || true
 	docker rmi $(IMAGE_NAME) || true
 
+rm:
+	docker rm $(CONTAINER_NAME) || true
