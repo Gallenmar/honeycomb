@@ -12,3 +12,11 @@ build:
 run:
 	docker run --name $(CONTAINER_NAME) -p $(PORT):8000 $(IMAGE_NAME)
 
+stop:
+	docker stop $(CONTAINER_NAME) || true
+	docker rm $(CONTAINER_NAME) || true
+
+reset:
+	docker rm $(CONTAINER_NAME) || true
+	docker rmi $(IMAGE_NAME) || true
+
