@@ -7,6 +7,7 @@ const initialState = {
   bathrooms: "1",
   neighborhood: "Agenskalns",
   priceRange: 300,
+  preferences: [],
 };
 
 const filtersSlice = createSlice({
@@ -16,9 +17,12 @@ const filtersSlice = createSlice({
     setFilters: (state, action) => {
       return { ...state, ...action.payload };
     },
+    setPreferences: (state, action) => {
+      state.preferences = action.payload;
+    },
     resetFilters: () => initialState,
   },
 });
 
-export const { setFilters, resetFilters } = filtersSlice.actions;
+export const { setFilters, setPreferences, resetFilters } = filtersSlice.actions;
 export default filtersSlice.reducer;

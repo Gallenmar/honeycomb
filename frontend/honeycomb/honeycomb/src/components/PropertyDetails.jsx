@@ -29,7 +29,7 @@ function PropertyDetails({ onBack, onFavorites }) {
   }
 
   return (
-    <Layout activeIcon="filter">
+    <Layout activeIcon="home">
 
       <div className="content">
         <div className="property-header">

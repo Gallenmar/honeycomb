@@ -1,10 +1,12 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { setFilters, resetFilters } from '../store/filterSlice.js';
 import Layout from './Layout';
+import { useNavigate } from 'react-router-dom'; 
 
 function FilterOptions({ onApply, onBack }) {
   const filters = useSelector((state) => state.filters);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const handleChange = (name, value) => {
     dispatch(setFilters({ [name]: value }));
@@ -34,6 +36,18 @@ function FilterOptions({ onApply, onBack }) {
       </button>
 
       <div className="filter-form">
+        <button className="advanced-filter-button" onClick={() => navigate('/likes-interests')}>
+          Likes and Interests
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6 12L10 8L6 4"
+              stroke="#FF7A59"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
         <div className="form-group">
           <label>Looking for</label>
           <div className="select-wrapper">
@@ -181,18 +195,6 @@ function FilterOptions({ onApply, onBack }) {
           </div>
         </div>
 
-        <button className="advanced-filter-button">
-          Advance Filter Options
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M6 12L10 8L6 4"
-              stroke="#FF7A59"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </button>
       </div>
     </Layout>
   );

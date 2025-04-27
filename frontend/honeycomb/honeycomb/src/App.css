@@ -165,18 +165,46 @@ All the styles for the app
 .select-wrapper {
   position: relative;
   width: 100%;
+  padding: 2px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #FF7A59, #FFD700);
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  min-height: 60px;
+}
+
+.select-wrapper select {
+  min-height: 60px;
 }
 
 .select-wrapper select {
   width: 100%;
-  padding: 12px 16px;
-  border: 1px solid #E5E7EB;
-  border-radius: 8px;
-  background-color: #ffffff;
+  padding: 12px 40px 12px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
   font-size: 16px;
   color: #1F2937;
   appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   cursor: pointer;
+  outline: none;
+  box-sizing: border-box;
+  display: block;
+}
+
+.select-wrapper select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ff7a591a;
+}
+
+.select-arrow {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .select-wrapper.location {
@@ -191,19 +219,12 @@ All the styles for the app
   transform: translateY(-50%);
 }
 
-.select-arrow {
-  position: absolute;
-  right: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
-}
-
 /* Price Range Styles */
-.price-range {
+.price-range input{
   display: flex;
   flex-direction: column;
   gap: 8px;
+  color: #fff;
 }
 
 .price-labels {
@@ -222,7 +243,7 @@ All the styles for the app
   width: 100%;
   height: 4px;
   -webkit-appearance: none;
-  background: #E5E7EB;
+  background: #ffd9007a;
   border-radius: 2px;
   outline: none;
 }
@@ -234,6 +255,7 @@ All the styles for the app
   background: #FF7A59;
   border-radius: 50%;
   cursor: pointer;
+  transform: translateY(-50%);
 }
 
 .range-slider::-moz-range-thumb {
@@ -243,6 +265,7 @@ All the styles for the app
   border-radius: 50%;
   cursor: pointer;
   border: none;
+  transform: translateY(-50%);
 }
 
 .advanced-filter-button {
@@ -250,8 +273,8 @@ All the styles for the app
   align-items: center;
   justify-content: space-between;
   padding: 12px 16px;
-  background: none;
-  border: 1px solid #E5E7EB;
+  background: linear-gradient(90deg, #ff7a598c, #ffd9007a);
+  border: 1px solid #FF7A59;
   border-radius: 8px;
   font-size: 16px;
   color: #1F2937;
@@ -749,5 +772,157 @@ All the styles for the app
   }
   .favorite-title {
     font-size: 15px;
+  }
+}
+
+/* --- LikesInterests Component Styles --- */
+
+.likes-interests .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.likes-interests .back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.likes-interests .skip-button {
+  background: none;
+  border: none;
+  color: #FF7A59;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.likes-interests .skip-button:hover {
+  background: #fff3ed;
+}
+
+.likes-interests .preferences-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.preference-button {
+  position: relative;
+  z-index: 1;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  background: #fff;
+  border-radius: 48px;
+  font-size: 16px;
+  color: #1F2937;
+  cursor: pointer;
+  transition: border 0.2s, background 0.2s, color 0.2s;
+  min-height: 100px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+  gap: 8px;
+}
+
+.preference-button.selected::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 48px;
+  padding: 4px;
+  background: linear-gradient(90deg, #FF7A59, #FFD700);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
+}
+
+.preference-button .icon {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.preference-button.selected {
+  border: 2px solid #fcc3b59c;
+  background: #f5f1ee;
+  color: #FF7A59;
+}
+
+.preference-button.selected .icon {
+  /* Optionally highlight icon when selected */
+  filter: drop-shadow(0 0 2px #FF7A59);
+}
+
+.likes-interests .footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.continue-button {
+  position: relative;
+  width: 100%;
+  min-height: 60px;
+  max-width: 320px;
+  padding: 16px;
+  background: linear-gradient(90deg, #FF7A59, #FFD700);
+  color: white;
+  border: none;
+  border-radius: 48px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.continue-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  padding: 2px;
+  background: linear-gradient(90deg, #FF7A59, #FFD700);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Responsive for LikesInterests */
+@media (max-width: 600px) {
+  /* .likes-interests .preferences-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  } */
+  .preference-button {
+    font-size: 14px;
+    min-height: 80px;
+    padding: 14px 4px;
+  }
+  .continue-button {
+    font-size: 16px;
+    padding: 12px;
   }
 }

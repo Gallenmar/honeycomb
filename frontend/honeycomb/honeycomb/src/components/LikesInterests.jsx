@@ -1,40 +1,46 @@
-import { useState } from "react"
+import { useState } from "react";
+import Layout from "./Layout";
+import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { setPreferences } from "../store/filterSlice"; // adjust path if needed
 
-function LikesInterests({ onContinue, onBack, onSkip }) {
-  const [selectedPreferences, setSelectedPreferences] = useState([])
+function LikesInterests() {
+  const savedPreferences = useSelector((state) => state.filters.preferences || []);
+  const [selectedPreferences, setSelectedPreferences] = useState(savedPreferences);
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const togglePreference = (preference) => {
     if (selectedPreferences.includes(preference)) {
-      setSelectedPreferences(selectedPreferences.filter((p) => p !== preference))
+      setSelectedPreferences(
+        selectedPreferences.filter((p) => p !== preference)
+      );
     } else {
-      setSelectedPreferences([...selectedPreferences, preference])
+      setSelectedPreferences([...selectedPreferences, preference]);
     }
-  }
+  };
 
   const isSelected = (preference) => {
-    return selectedPreferences.includes(preference)
-  }
+    return selectedPreferences.includes(preference);
+  };
+
+  const onContinue = () => {
+    dispatch(setPreferences(selectedPreferences)); // <-- Save to store
+    navigate("/filter");
+  };
 
   return (
-    <div className="screen likes-interests">
-      <div className="header">
-        <button className="back-button" onClick={onBack}>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M15 18L9 12L15 6" stroke="#FF7A59" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </button>
-        <button className="skip-button" onClick={onSkip}>
-          Skip
-        </button>
-      </div>
-
-      <div className="content">
-        <h1 className="title">Likes, Interests</h1>
-        <p className="subtitle">Share your needs — find your home</p>
-
+    <Layout
+      title="Likes, Interests"
+      subtitle="Share your needs — find your home"
+      activeIcon="filter"
+    >
+      <div className="likes-interests">
         <div className="preferences-grid">
           <button
-            className={`preference-button ${isSelected("pet-friendly") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("pet-friendly") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("pet-friendly")}
           >
             <span className="icon">🐾</span>
@@ -42,7 +48,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("outdoor-space") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("outdoor-space") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("outdoor-space")}
           >
             <span className="icon">🌳</span>
@@ -50,7 +58,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("utilities-included") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("utilities-included") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("utilities-included")}
           >
             <span className="icon">💡</span>
@@ -58,7 +68,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("gym-access") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("gym-access") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("gym-access")}
           >
             <span className="icon">🏋️</span>
@@ -66,7 +78,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("parking") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("parking") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("parking")}
           >
             <span className="icon">🚗</span>
@@ -74,7 +88,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("low-noise-area") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("low-noise-area") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("low-noise-area")}
           >
             <span className="icon">🔇</span>
@@ -82,7 +98,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("short-term") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("short-term") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("short-term")}
           >
             <span className="icon">⏱️</span>
@@ -90,7 +108,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("near-public-transportation") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("near-public-transportation") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("near-public-transportation")}
           >
             <span className="icon">🚆</span>
@@ -98,7 +118,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("smoke-free") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("smoke-free") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("smoke-free")}
           >
             <span className="icon">🚭</span>
@@ -106,7 +128,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("balcony") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("balcony") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("balcony")}
           >
             <span className="icon">🏠</span>
@@ -114,7 +138,9 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("accessible") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("accessible") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("accessible")}
           >
             <span className="icon">♿</span>
@@ -122,15 +148,15 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           </button>
 
           <button
-            className={`preference-button ${isSelected("storage-space") ? "selected" : ""}`}
+            className={`preference-button ${
+              isSelected("storage-space") ? "selected" : ""
+            }`}
             onClick={() => togglePreference("storage-space")}
           >
             <span className="icon">📦</span>
             <span className="text">Storage space</span>
           </button>
         </div>
-
-        <button className="load-more-button">Load More</button>
       </div>
 
       <div className="footer">
@@ -138,8 +164,8 @@ function LikesInterests({ onContinue, onBack, onSkip }) {
           Continue
         </button>
       </div>
-    </div>
-  )
+    </Layout>
+  );
 }
 
-export default LikesInterests
+export default LikesInterests;
