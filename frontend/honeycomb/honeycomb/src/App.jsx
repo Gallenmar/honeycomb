@@ -5,6 +5,7 @@ import store from './store/store'
 import FilterOptions from './components/FilterOptions'
 import PropertyDetails from './components/PropertyDetails'
 import PropertyListing from './components/PropertyListing'
+import Favorites from './components/Favorites'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<PropertyListing />} />
         <Route path="/filter" element={<FilterOptions />} />
         <Route path="/property-details" element={<PropertyDetails />} />
+        <Route path="/saved" element={<Favorites />} />
       </Routes>
     </Provider>
   )

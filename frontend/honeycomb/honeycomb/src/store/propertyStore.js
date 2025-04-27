@@ -5,6 +5,7 @@ export const likeItem = createAction('listings/likeItem');
 export const superLikeItem = createAction('listings/superLikeItem');
 export const dislikeItem = createAction('listings/dislikeItem');
 export const selectItem = createAction('listings/selectItem');
+export const setCurrentItems = createAction('listings/setCurrentItems');
 
 const listingSlice = createSlice({
   name: 'listings',
@@ -13,6 +14,7 @@ const listingSlice = createSlice({
     dislikedItems: [],
     superLikedItems: [],
     currentItem: null,
+    currentItems: [],
     loading: false,
     error: null,
   },
@@ -28,6 +30,9 @@ const listingSlice = createSlice({
     },
     superLikeItem: (state, action) => {
       state.superLikedItems.push(action.payload);
+    },
+    setCurrentItems: (state, action) => {
+      state.currentItems = action.payload;
     },
   },
 });
