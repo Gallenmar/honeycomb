@@ -69,6 +69,7 @@ All the styles for the app
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 6px;
 }
 
 .property-listing .header {
@@ -94,6 +95,7 @@ All the styles for the app
   display: flex;
   gap: 16px;
   z-index: 10;
+  width: 100%;
 }
 
 .search-button,
@@ -108,16 +110,20 @@ All the styles for the app
   justify-content: center;
 }
 
+.more-button {
+  margin-left: auto;
+}
+
 /* Content Styles */
 .content {
   flex: 1;  
   overflow-y: auto;
   overflow-x: hidden; /* Prevent horizontal scrolling */
-  background: linear-gradient(180deg, #f8fafc 0%, #f1e9db 100%);
+  background: linear-gradient(180deg, #97ecff3b 0%, #f3e0bfaf 100%);
 }
 
 .container {
-  padding: 0 20px 0 16px;
+  padding: 0 30px;
 }
 
 .property-listing .content {
@@ -285,12 +291,12 @@ All the styles for the app
 /* Property Listing Styles */
 .property-image-container {
   position: relative;
-  width: 100%;
   height: 75vh;
   border-radius: 12px;
   border: 4px solid #F7AB5F;
   overflow: hidden;
   margin-bottom: 16px;
+  z-index: 99;
 }
 
 .property-image {
@@ -925,4 +931,59 @@ All the styles for the app
     font-size: 16px;
     padding: 12px;
   }
+}
+
+/* Stacked image effect for property listing */
+.stacked-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s, z-index 0s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  cursor: pointer;
+}
+
+.stacked-image-0 {
+  transform: rotate(0deg) scale(1);
+  z-index: 3;
+}
+.stacked-image-1 {
+  transform: rotate(-8deg) scale(0.96) translateY(10px);
+  z-index: 2;
+  opacity: 0.7;
+  pointer-events: none;
+}
+.stacked-image-2 {
+  transform: rotate(8deg) scale(0.92) translateY(20px);
+  z-index: 1;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.shift-image-container {
+  position: absolute;
+  height: 50vh;
+  width: 75vw;
+  border-radius: 12px;
+  border: 4px solid #F7AB5F;
+  overflow: hidden;
+  z-index: 3;
+  border-radius: 12px;
+  border: 4px solid #F7AB5F;
+  overflow: hidden;
+  margin-bottom: 16px;
+  transform: rotate(-8deg) scale(0.96) translateY(-20px) translateX(-20px);
+}
+
+.shift-image-container2 {
+  transform: rotate(5deg) scale(0.96) translateY(-20px) translateX(60px);
+}
+
+
+.shift-image {
+  width: 100%;
+  height: 100%;
 }
