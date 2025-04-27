@@ -1,0 +1,2183 @@
+[
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Brīvības 148",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Studio apartment fully equipped kitchen (fridge, electric stove, tea pot, utensils), bathroom with shower, bathtub, towel heater, washing machine, towels, linens, slippers, iron, dryer; digital TV, high-speed Wi-Fi; free parking; close to public transport, Matīsa market, Domina mall, Miera street restaurants.",
+      "rent_pricing_eur": 40,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Price varies by term",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 21,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Shower, bathtub, towel heater, washing machine",
+      "kitchen": true,
+      "kitchen_description": "Fully equipped (fridge, electric stove, teapot, utensils)",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 7,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": 10,
+      "transport_distance_min": 2,
+      "points_of_interest": [
+        "Matīsa Market",
+        "Domina Shopping Mall",
+        "Miera Street restaurants and bars"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "5",
+      "listing_date": "2025-04-20 08:00:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/abnoi.html",
+      "listing_phone": "(+371) 22-37-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1282/320436/flats-riga-centre-64087071.800.jpg",
+      "https://i.ss.lv/gallery/6/1039/259610/flats-riga-centre-51921968.800.jpg",
+      "https://i.ss.lv/gallery/7/1282/320436/flats-riga-centre-64087072.800.jpg",
+      "https://i.ss.lv/gallery/7/1282/320436/flats-riga-centre-64087073.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Brīvības 148",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "- Studio apartment; - Central location on Brīvības Street; - Fully equipped kitchen (fridge, electric stove, kettle, dishes); - Bathroom with shower, towel dryer, washing machine; - Iron, ironing board, clothes dryer; - Parking included; - Accessible by public transport",
+      "rent_pricing_eur": 30,
+      "rent_type": "Daily",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Price varies by term",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 22,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Shower, towel dryer, washing machine",
+      "kitchen": true,
+      "kitchen_description": "Fridge, electric stove, kettle, dishes, glasses, pots, pans",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": "radiator heating system",
+      "overall_modernity": 7,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "8",
+      "listing_date": "2025-04-02T16:00:00Z",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/acbmd.html",
+      "listing_phone": "(+371) 22-37-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1318/329372/flats-riga-centre-65874201.800.jpg",
+      "https://i.ss.lv/gallery/7/1318/329372/flats-riga-centre-65874202.800.jpg",
+      "https://i.ss.lv/gallery/7/1318/329372/flats-riga-centre-65874203.800.jpg",
+      "https://i.ss.lv/gallery/7/1318/329372/flats-riga-centre-65874204.800.jpg",
+      "https://i.ss.lv/gallery/7/1318/329372/flats-riga-centre-65874205.800.jpg",
+      "https://i.ss.lv/gallery/7/1318/329372/flats-riga-centre-65874206.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Antonijas iela 14",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Cozy 1-room apartment in central Riga; daily rental with bed linen, towels, shampoo, shower gel, dishes, and internet provided; minimum 3-day stay.",
+      "rent_pricing_eur": 30,
+      "rent_type": "daily",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": true,
+      "payment_terms": null,
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 23,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": null,
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": false,
+      "refrigerator": true,
+      "stove": false,
+      "stove_type": null,
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": "unknown (not visible in images)",
+      "overall_modernity": 6,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "9",
+      "listing_date": "2025-04-25T08:04:00Z",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/acbnc.html",
+      "listing_phone": "(+371) 25-48-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1240/309973/flats-riga-centre-61994545.800.jpg",
+      "https://i.ss.lv/gallery/7/1279/319661/flats-riga-centre-63932048.800.jpg",
+      "https://i.ss.lv/gallery/7/1240/309973/flats-riga-centre-61994546.800.jpg",
+      "https://i.ss.lv/gallery/7/1240/309973/flats-riga-centre-61994547.800.jpg",
+      "https://i.ss.lv/gallery/7/1240/309973/flats-riga-centre-61994548.800.jpg",
+      "https://i.ss.lv/gallery/7/1240/309973/flats-riga-centre-61994549.800.jpg",
+      "https://i.ss.lv/gallery/7/1240/309973/flats-riga-centre-61994550.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Ganību d. 3",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Bright 3-room attic apt in pre-war building; functional layout; separate living area & 2 bedrooms; modern kitchen; spacious bathroom; autonomous gas heating; parking; close to transport & amenities",
+      "rent_pricing_eur": 700,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": 110,
+      "management_fee_summer_eur": 110,
+      "all_utilities_included": false,
+      "payment_terms": "First and last month rent due at contract signing",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 73,
+      "floor": 4,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": true,
+      "building_type": "pre-war",
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 3,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "bathroom_description": "Spacious bathroom",
+      "kitchen": true,
+      "kitchen_description": "Modern kitchen, separate from living area",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": false,
+      "stove_type": null,
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": "radiator heating system",
+      "overall_modernity": 7,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": 5,
+      "transport_distance_min": 1,
+      "points_of_interest": [
+        "Bus stop (20m)",
+        "Tram stop (200m)",
+        "Grocery stores (5 min)",
+        "Viesturdārza park",
+        "Educational institutions",
+        "Medical centers",
+        "Offices"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "10",
+      "listing_date": "2025-04-15 22:47:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/accje.html",
+      "listing_phone": "(+371) 25-88-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682482.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682483.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682484.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682485.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682486.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682487.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682488.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682489.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682490.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682491.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682492.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682493.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682494.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323413/flats-riga-centre-64682495.800.jpg",
+      "https://i.ss.lv/gallery/7/1294/323414/flats-riga-centre-64682655.800.jpg",
+      "https://i.ss.lv/gallery/7/1350/337487/flats-riga-centre-67497251.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Jēzusbaznīcas 7a",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Bright 2-room apartment with separate kitchen, fully furnished and equipped (fridge, washing machine). 7-min walk to Origo Mall. Quiet, safe courtyard. 1-year minimum lease. Deposit 590 EUR. No pets.",
+      "rent_pricing_eur": 440,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Minimum lease 1 year. Deposit 590 EUR.",
+      "pet_friendly": "No pets"
+    },
+    "property_characteristics": {
+      "size_m2": 47,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 2,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "bathroom_description": "Toilet",
+      "kitchen": true,
+      "kitchen_description": "Separate kitchen",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": null,
+      "water_heater": false,
+      "water_heater_type": "electric",
+      "heating_type": "radiator system",
+      "overall_modernity": 6,
+      "kitchen_modernity": 7
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Origo Mall (7 min walk)"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "48",
+      "listing_date": "2025-04-01 16:39:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aebfg.html",
+      "listing_phone": "(+371) 22-06-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1344/335896/flats-riga-centre-67179023.800.jpg",
+      "https://i.ss.lv/gallery/7/1344/335896/flats-riga-centre-67179024.800.jpg",
+      "https://i.ss.lv/gallery/7/1344/335896/flats-riga-centre-67179025.800.jpg",
+      "https://i.ss.lv/gallery/7/1344/335896/flats-riga-centre-67179026.800.jpg",
+      "https://i.ss.lv/gallery/7/1344/335896/flats-riga-centre-67179027.800.jpg",
+      "https://i.ss.lv/gallery/7/1344/335896/flats-riga-centre-67179028.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Klusā 18",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "- Studio apartment; - Fully furnished and equipped; - Internet included; - Fixed utilities separate; - Minimum 6-month lease; - Parking available for extra fee; - Central location; - Bright and warm interior.",
+      "rent_pricing_eur": 240,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Minimum 6-month lease.",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 18,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": null,
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": true,
+      "water_heater_type": "electric",
+      "heating_type": null,
+      "overall_modernity": 6,
+      "kitchen_modernity": 5
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "paid"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Mežaparks",
+        "Seaside"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "49",
+      "listing_date": "2025-04-17 15:06:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aecnh.html",
+      "listing_phone": "(+371) 29-29-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1351/337650/flats-riga-centre-67529857.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337650/flats-riga-centre-67529858.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337650/flats-riga-centre-67529859.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337650/flats-riga-centre-67529860.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337650/flats-riga-centre-67529861.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337650/flats-riga-centre-67529920.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Barona 14",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Spacious 3-bedroom apartment; 24 m2 living room; fully furnished and equipped; quiet courtyard-facing windows; central location near Old Riga, park, public transport; utilities not included; agency fee 50% of one month's rent.",
+      "rent_pricing_eur": 800,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Agency fee 50% of one month's rent",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 117,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": "courtyard house",
+      "courtyard_location": "Windows face two separate courtyards"
+    },
+    "rooms": {
+      "rooms": 4,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "bathroom_description": "Combined bathroom",
+      "kitchen": true,
+      "kitchen_description": "Separate kitchen",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": null,
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": "central heating system (likely radiators connected to central boiler)",
+      "overall_modernity": 5,
+      "kitchen_modernity": 4
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Old Riga",
+        "Park",
+        "Restaurants",
+        "Cafes",
+        "Cultural and entertainment venues"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "51",
+      "listing_date": "2025-04-23 10:37:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aedxe.html",
+      "listing_phone": "(+371) 25-77-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997078.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997076.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997077.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997081.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997080.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997082.800.jpg",
+      "https://i.ss.lv/gallery/7/1295/323667/flats-riga-centre-64733226.800.jpg",
+      "https://i.ss.lv/gallery/7/1295/323667/flats-riga-centre-64733227.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997084.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997083.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997087.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997085.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997086.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997090.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997089.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997091.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997075.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997092.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997074.800.jpg",
+      "https://i.ss.lv/gallery/7/1260/314986/flats-riga-centre-62997073.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Artilērijas 47",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Owner rents central apartment long term (min 1 year). 1 isolated bedroom and 1 studio. Fixed rent and utilities price. Total monthly cost 550 EUR. Courtyard entrance. Parking 30 EUR/month. Near Rimi, Maxima, Mego, school, kindergarten.",
+      "rent_pricing_eur": 550,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": true,
+      "payment_terms": "Fixed rent and utilities price for contract duration",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 45,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": "Entrance from courtyard"
+    },
+    "rooms": {
+      "rooms": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": null,
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": false,
+      "stove": false,
+      "stove_type": null,
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 6,
+      "kitchen_modernity": 5
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "paid"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Rimi",
+        "Maxima",
+        "Mego",
+        "school",
+        "kindergarten"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "55",
+      "listing_date": "2025-04-22 22:52:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aejxg.html",
+      "listing_phone": "(+371) 29-75-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620810.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620811.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620812.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620813.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620814.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620815.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620816.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620817.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620818.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620819.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Brīvības 46",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "• 175 m² duplex apartment • Fully furnished, premium finishes • High ceilings, romantic turret • Open-plan kitchen, AC, city heating • Historic 1907 building, renovated • Low utilities, maintenance 0.55 €/m² • Bike storage, extra cellar • 60 m Galerija Riga, 140 m Esplanade Park, 700 m Old Town",
+      "rent_pricing_eur": 2450,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": 96,
+      "management_fee_summer_eur": 96,
+      "all_utilities_included": false,
+      "payment_terms": null,
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 175,
+      "floor": 1,
+      "high_ceilings": true,
+      "flooring_type": "wooden",
+      "renovated": true,
+      "building_type": "historic (1907), renovated",
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 3,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "bathroom_description": "1 full bathroom; utility room can be converted to second",
+      "kitchen": true,
+      "kitchen_description": "Open-plan kitchen with premium appliances",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": "unknown (not clearly visible, possible modern central heating system)",
+      "overall_modernity": 8,
+      "kitchen_modernity": 8
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Galerija Riga (60 m)",
+        "Esplanade Park (140 m)",
+        "Old Town (700 m)"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "57",
+      "listing_date": "2025-04-10 23:34:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aelox.html",
+      "listing_phone": "(+371) 29-39-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768360.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768353.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768354.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768355.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768356.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768357.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768358.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768359.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768362.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768363.800.jpg",
+      "https://i.ss.lv/gallery/7/1316/328842/flats-riga-centre-65768364.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Ģertrūdes 129",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "room",
+      "description_summary": "• Private room with bathroom • Air conditioning • Fridge, microwave, toaster, kettle & cutlery • Free WiFi, Smart TV with Netflix • All utilities included • Bike parking • 100€ deposit • 30€ cleaning fee",
+      "rent_pricing_eur": 35,
+      "rent_type": "Daily",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": true,
+      "payment_terms": "100€ security deposit; 30€ cleaning fee",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 14,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 0,
+      "bathrooms": 1,
+      "bathroom_description": "Private bathroom attached to the room",
+      "kitchen": false,
+      "kitchen_description": null,
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": false,
+      "stove": false,
+      "stove_type": null,
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 7,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "58",
+      "listing_date": "2025-04-16 14:57:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aemkd.html",
+      "listing_phone": "(+371) 20-06-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/4/794/198433/flats-riga-centre-39686595.800.jpg",
+      "https://i.ss.lv/gallery/4/794/198434/flats-riga-centre-39686665.800.jpg",
+      "https://i.ss.lv/gallery/4/794/198433/flats-riga-centre-39686596.800.jpg",
+      "https://i.ss.lv/gallery/4/794/198433/flats-riga-centre-39686597.800.jpg",
+      "https://i.ss.lv/gallery/4/794/198433/flats-riga-centre-39686598.800.jpg",
+      "https://i.ss.lv/gallery/4/794/198433/flats-riga-centre-39686599.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Artilērijas 47",
+      "district": "Centrs"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "• Centrally located 3-room apartment (2 separate rooms + studio) • Minimum 1-year lease • Fixed monthly payment €650 incl utilities & electricity • Courtyard entrance • Parking €30/month • Close to Rimi, Maxima, Mego, schools & kindergartens",
+      "rent_pricing_eur": 650,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": true,
+      "payment_terms": "Minimum lease 1 year",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 75,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": "Entrance from courtyard"
+    },
+    "rooms": {
+      "rooms": 3,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": null,
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": false,
+      "stove": false,
+      "stove_type": null,
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": "central electric heating",
+      "overall_modernity": 6,
+      "kitchen_modernity": 5
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "paid"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": 3,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Rimi",
+        "Maxima",
+        "Mego",
+        "school",
+        "kindergarten"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "59",
+      "listing_date": "2025-04-22 22:55:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aemib.html",
+      "listing_phone": "(+371) 29-75-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620826.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620827.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620828.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620829.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620830.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620831.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620832.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620833.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620834.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620835.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620836.800.jpg",
+      "https://i.ss.lv/gallery/7/1353/338105/flats-riga-centre-67620837.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Laboratorijas 11",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "room",
+      "description_summary": "- Lockable single room with private shower and toilet\n- All utilities included (heating, water, electricity up to 35 kWh/month, waste removal)\n- Shared refrigerator, no kitchen\n- Minimum 1-year lease; 1 month deposit\n- Central location near parks and public transport",
+      "rent_pricing_eur": 285,
+      "rent_type": "monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": true,
+      "payment_terms": "First month’s rent plus one-month deposit by bank transfer",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 24,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Private shower and toilet",
+      "kitchen": false,
+      "kitchen_description": "No kitchen, shared refrigerator only",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": false,
+      "refrigerator": false,
+      "stove": false,
+      "stove_type": null,
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 3,
+      "kitchen_modernity": 2
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Three nearby parks"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "62",
+      "listing_date": "2025-04-16T11:00:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/aenef.html",
+      "listing_phone": "(+371) 29-34-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1282/320483/flats-riga-centre-64096590.800.jpg",
+      "https://i.ss.lv/gallery/7/1282/320483/flats-riga-centre-64096591.800.jpg",
+      "https://i.ss.lv/gallery/7/1282/320483/flats-riga-centre-64096592.800.jpg",
+      "https://i.ss.lv/gallery/7/1282/320483/flats-riga-centre-64096593.800.jpg",
+      "https://i.ss.lv/gallery/7/1282/320483/flats-riga-centre-64096594.800.jpg",
+      "https://i.ss.lv/gallery/1/1/171/flats-riga-centre-34092.800.jpg",
+      "https://i.ss.lv/gallery/2/314/78279/flats-riga-centre-15655736.800.jpg",
+      "https://i.ss.lv/gallery/1/1/171/flats-riga-centre-34089.800.jpg",
+      "https://i.ss.lv/gallery/6/1112/277923/flats-riga-centre-55584413.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Miera 101",
+      "district": null
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Needs renovation; 2-room apartment in an up-and-coming Riga district with developed infrastructure; public transport nearby; quiet neighbors; inner courtyard entrance with parking; close to Domina and Elkor Plaza; short distance to city center.",
+      "rent_pricing_eur": 155,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": null,
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 39,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": "Inner courtyard entrance"
+    },
+    "rooms": {
+      "rooms": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": null,
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": false,
+      "washing_machine": true,
+      "refrigerator": false,
+      "stove": false,
+      "stove_type": null,
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": "radiator (likely electric or central heating system, but not explicitly visible)",
+      "overall_modernity": 3,
+      "kitchen_modernity": 3
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Domina shopping center",
+        "Elkor Plaza"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "67",
+      "listing_date": "2025-04-07 09:57:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afcdd.html",
+      "listing_phone": "(+371) 27-88-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/5/951/237727/flats-riga-centre-47545247.800.jpg",
+      "https://i.ss.lv/gallery/5/951/237727/flats-riga-centre-47545248.800.jpg",
+      "https://i.ss.lv/gallery/5/951/237727/flats-riga-centre-47545249.800.jpg",
+      "https://i.ss.lv/gallery/5/951/237727/flats-riga-centre-47545250.800.jpg",
+      "https://i.ss.lv/gallery/5/951/237727/flats-riga-centre-47545251.800.jpg",
+      "https://i.ss.lv/gallery/5/951/237727/flats-riga-centre-47545252.800.jpg",
+      "https://i.ss.lv/gallery/5/951/237727/flats-riga-centre-47545253.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Pils 18",
+      "district": "Vecrīga"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "- Furnished 1-room apt near Doma laukums; - Quiet first-floor courtyard view; - Shower, fridge, electric hob, washing machine, smart TV; - Central heating & electric underfloor; - No pets, 1-month deposit; - Utilities ~€110 winter, €70 summer",
+      "rent_pricing_eur": 360,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": 110,
+      "management_fee_summer_eur": 70,
+      "all_utilities_included": false,
+      "payment_terms": "Security deposit equals one month’s rent",
+      "pet_friendly": "No pets"
+    },
+    "property_characteristics": {
+      "size_m2": 27,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": "Window faces inner courtyard"
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Shower cabin",
+      "kitchen": true,
+      "kitchen_description": "Ceramic hob and refrigerator",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": false,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": "radiator (central heating)",
+      "overall_modernity": 6,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Doma laukums"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "68",
+      "listing_date": "2025-04-24 16:44:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afcdg.html",
+      "listing_phone": "(+371) 28-34-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1347/336579/flats-riga-centre-67315741.800.jpg",
+      "https://i.ss.lv/gallery/7/1349/337015/flats-riga-centre-67402946.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336579/flats-riga-centre-67315745.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336579/flats-riga-centre-67315744.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336579/flats-riga-centre-67315743.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336579/flats-riga-centre-67315747.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336579/flats-riga-centre-67315748.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336579/flats-riga-centre-67315746.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Bruņinieku 73a",
+      "district": "centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Modern 2-room renovated apartment; furnished; built-in kitchen with dishwasher, oven, stove, hood, refrigerator; washing machine; gas heating; LED lighting; parking in courtyard; minimum one-year lease; rent EUR 480 + utilities (EUR 80 summer, EUR 170 winter); security deposit EUR 480; no pets.",
+      "rent_pricing_eur": 480,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": 170,
+      "management_fee_summer_eur": 80,
+      "all_utilities_included": false,
+      "payment_terms": "Security deposit one month's rent (EUR 480); minimum lease one year",
+      "pet_friendly": "not allowed"
+    },
+    "property_characteristics": {
+      "size_m2": 50,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": true,
+      "building_type": "facade building",
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": "Built-in kitchen with dishwasher, oven, stove, hood, refrigerator",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": false,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": false,
+      "water_heater_type": "electric",
+      "heating_type": "central heating system (likely radiator-based, common in apartment buildings)",
+      "overall_modernity": 6,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "69",
+      "listing_date": "2025-04-26 11:11:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afbng.html",
+      "listing_phone": "(+371) 28-63-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678384.800.jpg",
+      "https://i.ss.lv/gallery/5/965/241176/flats-riga-centre-48235023.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678385.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678388.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678386.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678387.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678389.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678390.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678391.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678392.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678393.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678394.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678395.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678396.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678397.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678398.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678400.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278393/flats-riga-centre-55678401.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278393/flats-riga-centre-55678402.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278392/flats-riga-centre-55678399.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278393/flats-riga-centre-55678403.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278393/flats-riga-centre-55678404.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278393/flats-riga-centre-55678405.800.jpg",
+      "https://i.ss.lv/gallery/6/1114/278393/flats-riga-centre-55678406.800.jpg",
+      "https://i.ss.lv/gallery/6/1164/290792/flats-riga-centre-58158271.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Antonijas 10",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Bright, partially furnished 4-room apartment with historic parquet floors and decorative ceilings, original fireplaces, modern Bosch-equipped kitchen, shower bathroom, walk-in closet, stunning Alberta Street views. Central location near Old Town, parks, restaurants, and cultural landmarks. 1-year lease, garage option.",
+      "rent_pricing_eur": 1200,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Plus NIN and utility costs",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 145,
+      "floor": 2,
+      "high_ceilings": true,
+      "flooring_type": "historic parquet",
+      "renovated": true,
+      "building_type": "historic protected",
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 4,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "bathroom_description": "Modern bathroom with shower cubicle; separate toilet",
+      "kitchen": true,
+      "kitchen_description": "Built-in Bosch induction stove, extractor hood, dishwasher, refrigerator, oven, microwave",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": false,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 6,
+      "kitchen_modernity": 5
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "paid"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": 5,
+      "transport_distance_min": 5,
+      "points_of_interest": [
+        "Riga Old Town",
+        "Alberta Street",
+        "Parks",
+        "Restaurants",
+        "Cafes",
+        "Museums",
+        "Pharmacies",
+        "Banks",
+        "Law Firms",
+        "Wellness Centers"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "70",
+      "listing_date": "2025-04-14 13:56:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afdbb.html",
+      "listing_phone": "(+371) 27-04-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915808.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915809.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915810.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915811.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915812.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915813.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915814.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915815.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915816.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915817.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915818.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915819.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915820.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915821.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915822.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915823.800.jpg",
+      "https://i.ss.lv/gallery/7/1299/324580/flats-riga-centre-64915824.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Lastādijas 48a",
+      "district": "Latgales priekšpilsētas rajons"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "- Studio living room combined with kitchen\n- Fully furnished, includes appliances and amenities\n- Renovated building, modern design\n- Comfortable bedroom, bathroom with heated floor\n- Quiet courtyard and street views\n- 15-min walk to Old Town, near tram stop",
+      "rent_pricing_eur": 50,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Additional one-time cleaning fee. Prices may vary by season and length of stay.",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 45,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": true,
+      "building_type": "renovated",
+      "courtyard_location": "Courtyard and street view"
+    },
+    "rooms": {
+      "rooms": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Bathtub, heated floor, washing machine",
+      "kitchen": true,
+      "kitchen_description": "Fully equipped with oven, stove, microwave, dishwasher, dishes",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 8,
+      "kitchen_modernity": 8
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Old Town (15 min walk)",
+        "Tram stop"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "75",
+      "listing_date": "2025-04-24T23:26:00.000Z",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afdhp.html",
+      "listing_phone": "(+371) 29-35-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766724.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766725.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766726.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766727.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766728.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766729.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766730.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766731.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766732.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766733.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766734.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766735.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766736.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766737.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766738.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766739.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766740.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766741.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766742.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766743.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766744.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766745.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766746.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766747.800.jpg",
+      "https://i.ss.lv/gallery/6/1136/283834/flats-riga-centre-56766748.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Avotu 41",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "• 1-room apartment; • 40 m2; • Fully furnished; • Wooden window frames; • Includes essential appliances",
+      "rent_pricing_eur": 320,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": null,
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 40,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": "Fully equipped kitchen",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": null,
+      "water_heater": true,
+      "water_heater_type": "electric",
+      "heating_type": "central heating system (likely radiators based on the building type)",
+      "overall_modernity": 6,
+      "kitchen_modernity": 5
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "79",
+      "listing_date": "2025-04-13 21:46:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afggl.html",
+      "listing_phone": "(+371) 26-58-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1350/337251/flats-riga-centre-67450109.800.jpg",
+      "https://i.ss.lv/gallery/7/1350/337251/flats-riga-centre-67450110.800.jpg",
+      "https://i.ss.lv/gallery/7/1350/337251/flats-riga-centre-67450111.800.jpg",
+      "https://i.ss.lv/gallery/7/1350/337251/flats-riga-centre-67450112.800.jpg",
+      "https://i.ss.lv/gallery/7/1350/337251/flats-riga-centre-67450113.800.jpg",
+      "https://i.ss.lv/gallery/7/1350/337251/flats-riga-centre-67450114.800.jpg",
+      "https://i.ss.lv/gallery/7/1350/337251/flats-riga-centre-67450115.800.jpg",
+      "https://i.ss.lv/gallery/7/1350/337251/flats-riga-centre-67450116.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Valdemāra 123",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "room",
+      "description_summary": "• Renovated 6-room flat in Riga city center • Furnished private rooms 10–17 m² • Monthly rent €270–€400 + utilities • Shared modern kitchen, 2 bathrooms + separate toilet • Deposit 2 months, no pets, long-term preference",
+      "rent_pricing_eur": 270,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Deposit: first and last month",
+      "pet_friendly": "not allowed"
+    },
+    "property_characteristics": {
+      "size_m2": 118,
+      "floor": 2,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": true,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 6,
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "bathroom_description": "2 bathrooms and a separate toilet",
+      "kitchen": true,
+      "kitchen_description": "Modern fully equipped shared kitchen",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": null,
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 7,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": 5,
+      "transport_distance_min": 5,
+      "points_of_interest": [
+        "public transport",
+        "universities",
+        "shops",
+        "green areas"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "86",
+      "listing_date": "2025-04-16T21:39:00.000Z",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afkbj.html",
+      "listing_phone": "(+371) 20-32-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1351/337592/flats-riga-centre-67518349.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337592/flats-riga-centre-67518350.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337592/flats-riga-centre-67518351.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337592/flats-riga-centre-67518352.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337592/flats-riga-centre-67518353.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337592/flats-riga-centre-67518354.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337592/flats-riga-centre-67518355.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337592/flats-riga-centre-67518356.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Briāna 12",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "room",
+      "description_summary": "- Labiekārtota istaba komunālā tipa dzīvoklī; - Rīgas klusajā centrā; - Visas ērtības; - 140 EUR/mēnesī + komunālie pēc skaitītājiem",
+      "rent_pricing_eur": 140,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": null,
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 18,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 0,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": "Koplietošanas virtuve",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": false,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": false,
+      "stove_type": null,
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 3,
+      "kitchen_modernity": 2
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "90",
+      "listing_date": "2025-04-14T09:00:00.000Z",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afndl.html",
+      "listing_phone": "(+371) 28-60-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1245/311056/flats-riga-centre-62211047.800.jpg",
+      "https://i.ss.lv/gallery/6/1181/295025/flats-riga-centre-59004840.800.jpg",
+      "https://i.ss.lv/gallery/6/1181/295025/flats-riga-centre-59004841.800.jpg",
+      "https://i.ss.lv/gallery/6/1165/291234/flats-riga-centre-58246771.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Valdemāra iela 76",
+      "district": "Skanstes / City Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "• 3-room, 80 m2 on 7th floor • Panoramic Skanstes view • New renovation; bright, quiet • Fully equipped kitchen: dishwasher, induction hob, oven, fridge • 300 Mbps internet (wired & WiFi) • Quiet courtyard; parking permit for 1 car • 750 €/mo, utilities extra; no pets, no smoking",
+      "rent_pricing_eur": 750,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "6-month contract; utilities extra; no subletting; deposit",
+      "pet_friendly": "No"
+    },
+    "property_characteristics": {
+      "size_m2": 80,
+      "floor": 7,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": true,
+      "building_type": "brick",
+      "courtyard_location": "Quiet inner courtyard"
+    },
+    "rooms": {
+      "rooms": 3,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "bathroom_description": "Premium fixtures; bathtub, sink, washing machine; hygienic shower; water filtration",
+      "kitchen": true,
+      "kitchen_description": "Fully equipped: dishwasher, microwave, oven, induction hob, fridge; premium fittings; dining area",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": false,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 8,
+      "kitchen_modernity": 7
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": true,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": 1,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Valdemāra Pasāža",
+        "Emergn",
+        "Building 11",
+        "Visma Labs",
+        "Rietumu Banka",
+        "Evolution Latvia",
+        "Luminor",
+        "Skanstes City",
+        "Parks",
+        "Cycle path"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "91",
+      "listing_date": "2025-03-31 11:41:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afokp.html",
+      "listing_phone": "(+371) 29-58-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872527.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872517.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872518.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872519.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872520.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872521.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872522.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872523.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872524.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872516.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872526.800.jpg",
+      "https://i.ss.lv/gallery/7/1312/327922/flats-riga-centre-65584310.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872528.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872529.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872530.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872531.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872532.800.jpg",
+      "https://i.ss.lv/gallery/7/1298/324363/flats-riga-centre-64872533.800.jpg",
+      "https://i.ss.lv/gallery/7/1305/326183/flats-riga-centre-65236504.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Vēžu 1",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "- Sunny warm long-term rent; - 2 bedrooms, corridor, separate bathroom & toilet, kitchen; - Partially furnished with necessary appliances; - Free street parking & paid courtyard space; - Central utilities with meters; - Near fitness club, restaurants & grocery stores",
+      "rent_pricing_eur": 650,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": null,
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 74,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 3,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "bathroom_description": "Separate bathroom and toilet",
+      "kitchen": true,
+      "kitchen_description": "Standard kitchen",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": null,
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": "central heating with radiators",
+      "overall_modernity": 7,
+      "kitchen_modernity": 8
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Fitness Club Jokers",
+        "Restaurants",
+        "Grocery stores"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "92",
+      "listing_date": "2025-04-06 21:38:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afxmd.html",
+      "listing_phone": "(+371) 25-77-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303718.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303719.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303720.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303721.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303722.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303723.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303724.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303725.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303726.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303727.800.jpg",
+      "https://i.ss.lv/gallery/7/1347/336519/flats-riga-centre-67303728.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Alberta iela 2a",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "- Exclusive fully furnished apartment\n- 50 m2, 1 room layout\n- Prime Centre location near embassies, parks\n- Designer furniture, oak parquet\n- First and last month deposit required\n- No agents",
+      "rent_pricing_eur": 600,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "First and last month rent plus security deposit required",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 50,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": "oak parquet",
+      "renovated": false,
+      "building_type": "art nouveau",
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Spacious bathroom",
+      "kitchen": true,
+      "kitchen_description": "Cozy kitchen",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": false,
+      "refrigerator": false,
+      "stove": true,
+      "stove_type": null,
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": "radiator heating system",
+      "overall_modernity": 5,
+      "kitchen_modernity": 4
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": [
+        "Embassies",
+        "Financial institutions",
+        "Parks",
+        "Public transport hubs"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "93",
+      "listing_date": "2025-04-13 11:45:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/afxdf.html",
+      "listing_phone": "(+371) 26-30-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566476.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566477.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566478.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566479.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566480.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566481.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566482.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566483.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566484.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566485.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566486.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566487.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566488.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566489.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566490.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566491.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566492.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566493.800.jpg",
+      "https://i.ss.lv/gallery/7/1292/322833/flats-riga-centre-64566494.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Klusā 20",
+      "district": "Centrs"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "Newly renovated 1-room studio in gated complex. Fully furnished with double bed, sofa, built-in kitchen with fridge and stove, cookware included. Linens, towels provided. Bath with tub and washing machine. TV, Wi-Fi, hairdryer, iron. Excellent transport and infrastructure.",
+      "rent_pricing_eur": 40,
+      "rent_type": "monthly",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": null,
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 30,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": true,
+      "building_type": "modern",
+      "courtyard_location": "gated complex"
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Bathroom with tub and washing machine.",
+      "kitchen": true,
+      "kitchen_description": "Built-in kitchen furniture with fridge, stove and cookware.",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": false,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 7,
+      "kitchen_modernity": 7
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": false,
+      "parking_type": null
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "95",
+      "listing_date": "2025-04-04 09:46:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/agbnl.html",
+      "listing_phone": "(+371) 25-90-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240441.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240442.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240443.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240444.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240445.800.jpg",
+      "https://i.ss.lv/gallery/3/517/129059/flats-riga-centre-25811779.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240446.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240447.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240448.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240449.800.jpg",
+      "https://i.ss.lv/gallery/6/1127/281533/flats-riga-centre-56306512.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240450.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240451.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240452.800.jpg",
+      "https://i.ss.lv/gallery/7/1265/316203/flats-riga-centre-63240453.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Avotu 42",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "2-room furnished apartment, bright, quiet, courtyard view; separate bedroom with large bed; living room combined with kitchen; autonomous gas heating; free parking space; utilities €55 (excl. heating); gas bills €70–120 in winter; long-term lease; code-locked entry hall.",
+      "rent_pricing_eur": 370,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": 55,
+      "management_fee_summer_eur": 55,
+      "all_utilities_included": false,
+      "payment_terms": null,
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 33,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": "Combined with living room",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": null,
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 6,
+      "kitchen_modernity": 5
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "97",
+      "listing_date": "2025-04-25 10:29:00.000000",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/ageff.html",
+      "listing_phone": "(+371) 25-36-***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545077.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545079.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545082.800.jpg",
+      "https://i.ss.lv/gallery/7/1354/338349/flats-riga-centre-67669720.800.jpg",
+      "https://i.ss.lv/gallery/7/1354/338349/flats-riga-centre-67669721.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545080.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545086.800.jpg",
+      "https://i.ss.lv/gallery/7/1354/338349/flats-riga-centre-67669722.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545085.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545088.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545089.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545093.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545094.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545096.800.jpg",
+      "https://i.ss.lv/gallery/7/1354/338349/flats-riga-centre-67669723.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545097.800.jpg",
+      "https://i.ss.lv/gallery/7/1354/338349/flats-riga-centre-67669724.800.jpg",
+      "https://i.ss.lv/gallery/7/1231/307726/flats-riga-centre-61545098.800.jpg"
+    ]
+  },
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Lāčplēša 57",
+      "district": "Centrs"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "- 2 rooms, 47 m2; studio living room with kitchen and separate bedroom; newly renovated; includes fridge, washing machine, induction stove, oven, hood; parking space; utilities: €130 winter, €60 summer.",
+      "rent_pricing_eur": 600,
+      "rent_type": "Monthly",
+      "management_fee_winter_eur": 130,
+      "management_fee_summer_eur": 60,
+      "all_utilities_included": false,
+      "payment_terms": "600 € first month, 600 € deposit, 200 € contract fee; payment by bank transfer",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 47,
+      "floor": 0,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": true,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 2,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": null,
+      "kitchen": true,
+      "kitchen_description": "Open-plan kitchen combined with living room, equipped with induction hob, oven, hood.",
+      "living_room": true
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": false,
+      "refrigerator": false,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": false,
+      "water_heater_type": null,
+      "heating_type": null,
+      "overall_modernity": 7,
+      "kitchen_modernity": 6
+    },
+    "outdoor_features": {
+      "courtyard": true,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": null,
+      "transport_distance_min": null,
+      "points_of_interest": null
+    },
+    "listing_details": {
+      "listing_id": "98",
+      "listing_date": "2025-04-17T22:04:00",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/agekf.html",
+      "listing_phone": "+3712958***",
+      "listing_type": "rent"
+    },
+    "image_url": [
+      "https://i.ss.lv/gallery/7/1351/337686/flats-riga-centre-67537052.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337686/flats-riga-centre-67537053.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337686/flats-riga-centre-67537054.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337686/flats-riga-centre-67537055.800.jpg",
+      "https://i.ss.lv/gallery/7/1351/337686/flats-riga-centre-67537056.800.jpg"
+    ]
+  }
+]

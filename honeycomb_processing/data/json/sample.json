@@ -1,0 +1,71 @@
+[
+  {
+    "location": {
+      "country": "Latvia",
+      "city": "Riga",
+      "street": "Brīvības 148",
+      "district": "Centre"
+    },
+    "rent_details": {
+      "property_type": "apartment",
+      "description_summary": "• 21m² studio at Brīvības 148, fully furnished with kitchen and bathroom appliances • Digital TV, Wi-Fi, washing machine, iron and dryer provided • Free parking; close to public transport, Matisa market, Domina Shopping",
+      "rent_pricing_eur": 40,
+      "rent_type": "Daily",
+      "management_fee_winter_eur": null,
+      "management_fee_summer_eur": null,
+      "all_utilities_included": false,
+      "payment_terms": "Price depends on term",
+      "pet_friendly": null
+    },
+    "property_characteristics": {
+      "size_m2": 21,
+      "floor": 1,
+      "high_ceilings": null,
+      "flooring_type": null,
+      "renovated": false,
+      "building_type": null,
+      "courtyard_location": null
+    },
+    "rooms": {
+      "rooms": 1,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "bathroom_description": "Shower, bathtub, towel heater",
+      "kitchen": true,
+      "kitchen_description": "Fully equipped kitchen with fridge, electric stove, kettle, dishes, pans",
+      "living_room": false
+    },
+    "appliances": {
+      "furnished": true,
+      "washing_machine": true,
+      "refrigerator": true,
+      "stove": true,
+      "stove_type": "electric",
+      "water_heater": true,
+      "water_heater_type": null,
+      "heating_type": null
+    },
+    "outdoor_features": {
+      "courtyard": false,
+      "balcony": false,
+      "parking": true,
+      "parking_type": "free"
+    },
+    "nearby_infrastructure": {
+      "grocery_distance_min": 10,
+      "transport_distance_min": 2,
+      "points_of_interest": [
+        "Matisa market",
+        "Domina shopping mall",
+        "Miera street restaurants and bars"
+      ]
+    },
+    "listing_details": {
+      "listing_id": "5",
+      "listing_date": "2025-04-20 08:00:00",
+      "listing_url": "https://www.ss.lv/msg/lv/real-estate/flats/riga/centre/abnoi.html",
+      "listing_phone": "(+371) 22-37-***",
+      "listing_type": "rent"
+    }
+  }
+]
