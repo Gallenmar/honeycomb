@@ -4,8 +4,10 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 // Async thunk to fetch listings from the API
 export const fetchListings = createAsyncThunk(
   'listings/fetchListings',
-  async () => {
-    const response = await fetch('http://0.0.0.0:8000/apartments/');
+  async (filters) => {
+    // Build query string from filters
+    const params = new URLSearchParams(filters).toString();
+    const response = await fetch(`http://0.0.0.0:8000/apartments/?${params}`);
     if (!response.ok) {
       throw new Error('Failed to fetch listings');
     }

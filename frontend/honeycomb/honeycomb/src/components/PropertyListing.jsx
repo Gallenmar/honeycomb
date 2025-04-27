@@ -27,10 +27,11 @@ const PropertyListing = () => {
     error: currentItemError,
   } = useSelector((state) => state.property);
   const [imageIndex, setImageIndex] = useState(0);
+  const filters = useSelector(state => state.filters);
 
   useEffect(() => {
-    dispatch(fetchListings());
-  }, [dispatch]);
+    dispatch(fetchListings(filters));
+  }, [filters, dispatch]);
 
   useEffect(() => {
     if (!loading && items.length > 0) {
