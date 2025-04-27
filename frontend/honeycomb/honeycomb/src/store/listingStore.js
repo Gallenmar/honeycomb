@@ -6,7 +6,8 @@ export const fetchListings = createAsyncThunk(
   'listings/fetchListings',
   async (filters) => {
     // Build query string from filters
-    const params = new URLSearchParams(filters).toString();
+    const sendFilters = false;
+    const params = sendFilters ? new URLSearchParams(filters).toString() : '';
     const response = await fetch(`http://0.0.0.0:8000/apartments/?${params}`);
     if (!response.ok) {
       throw new Error('Failed to fetch listings');

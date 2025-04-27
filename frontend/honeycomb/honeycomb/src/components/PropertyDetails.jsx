@@ -34,7 +34,7 @@ function PropertyDetails({ onBack, onFavorites }) {
       <div className="content">
         <div className="property-header">
           <div className="property-title-container">
-            <h1 className="property-details-title">{currentItem.location.city} {currentItem.location.street}</h1>
+            <h1 className="property-details-title">{currentItem?.location?.city} {currentItem?.location?.street}</h1>
             <div className="property-rating">
               <button className="rating-button red">
                 <img src={dislike} alt="dislike" onClick={handleDislike}/>
@@ -49,7 +49,7 @@ function PropertyDetails({ onBack, onFavorites }) {
           </div>
 
           <p className="property-description">
-            {currentItem.rent_details.description_summary
+            {currentItem?.rent_details?.description_summary
               .split(/(?:--|[;•]|(?<!\d)-|-(?![a-zA-Z]))+/)
               .map((part, idx) => (
                 <span key={idx}>
@@ -88,7 +88,7 @@ function PropertyDetails({ onBack, onFavorites }) {
           <div className="property-gallery">
             {activeTab === "pictures" && (
               <div className="gallery-grid">
-                {currentItem.image_url.map((image, index) => (
+                {currentItem?.image_url?.map((image, index) => (
                   <img
                     key={index}
                     src={image}
