@@ -1,19 +1,26 @@
 import { useState, useEffect } from "react"
 import { useSelector, useDispatch } from "react-redux"
 import Layout from "./Layout"
-import { setCurrentItems } from "../store/propertyStore"
+import { setCurrentItems, selectItem } from "../store/propertyStore"
 import camera from "../../public/Camera.svg"
+import { useNavigate } from "react-router-dom"
 
-function Favorites({ onViewDetails }) {
+function Favorites() {
   const [activeTab, setActiveTab] = useState("all")
   const dispatch = useDispatch()
   const { superLikedItems, currentItems } = useSelector((state) => state.property)
   const { items } = useSelector((state) => state.listings)
-
+  const navigate = useNavigate()
 
   useEffect(() => {
     dispatch(setCurrentItems(items.filter(item => superLikedItems.includes(item.listing_details.listing_id))))
   }, [superLikedItems, items, dispatch])
+
+  const onViewDetails = (id) => {
+    console.log(id)
+    dispatch(selectItem(items.find(item => item.listing_details.listing_id === id)))
+    navigate(`/property-details`)
+  }
 
   return (
     <Layout title="Saved" activeIcon="saved">
@@ -43,8 +50,8 @@ function Favorites({ onViewDetails }) {
 
       <div className="favorites-grid">
         {currentItems.map((property) => (
-          <div key={property.id} className="favorite-card" onClick={onViewDetails}>
-            <div className="favorite-image-container">
+          <div key={property.id} className="favorite-card" onClick={() => onViewDetails(property.listing_details.listing_id)}>
+            <div className="favorite-image-container" onClick={onViewDetails}>
               <img src={property?.image_url[0] || "/placeholder.svg"} alt={property.title} className="favorite-image" />
               <div className="favorite-rating">
                 <img src={camera} alt="camera" className="camera-icon" />

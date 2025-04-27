@@ -50,10 +50,10 @@ function PropertyDetails({ onBack, onFavorites }) {
 
           <p className="property-description">
             {currentItem.rent_details.description_summary
-              .split(/(?:[;•]|(?<!\d)-|-(?![a-zA-Z]))/)
+              .split(/(?:--|[;•]|(?<!\d)-|-(?![a-zA-Z]))+/)
               .map((part, idx) => (
                 <span key={idx}>
-                  {part.trim()}<br />
+                  • {part.trim()}<br />
                 </span>
               ))}
           </p>

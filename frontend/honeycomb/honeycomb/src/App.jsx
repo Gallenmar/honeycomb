@@ -6,6 +6,7 @@ import FilterOptions from './components/FilterOptions'
 import PropertyDetails from './components/PropertyDetails'
 import PropertyListing from './components/PropertyListing'
 import Favorites from './components/Favorites'
+import LikesInterests from './components/LikesInterests'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/filter" element={<FilterOptions />} />
         <Route path="/property-details" element={<PropertyDetails />} />
         <Route path="/saved" element={<Favorites />} />
+        <Route path="/likes-interests" element={<LikesInterests />} />
       </Routes>
     </Provider>
   )
