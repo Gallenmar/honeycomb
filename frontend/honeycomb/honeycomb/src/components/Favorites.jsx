@@ -50,17 +50,17 @@ function Favorites() {
 
       <div className="favorites-grid">
         {currentItems.map((property) => (
-          <div key={property.id} className="favorite-card" onClick={() => onViewDetails(property.listing_details.listing_id)}>
+          <div key={property.id} className="favorite-card" onClick={() => onViewDetails(property?.listing_details?.listing_id)}>
             <div className="favorite-image-container" onClick={onViewDetails}>
               <img src={property?.image_url[0] || "/placeholder.svg"} alt={property.title} className="favorite-image" />
               <div className="favorite-rating">
                 <img src={camera} alt="camera" className="camera-icon" />
-                <span className="camera-count">{property.image_url.length}</span>
+                <span className="camera-count">{property?.image_url?.length}</span>
                 <span className="rating-icon">⭐</span>
                 <span className="rating-value">{Math.floor(Math.random() * 5)}</span> {/* Premium FEATURE: See how  many users have superliked/liked this appratment*/}
               </div>
             </div>
-            <div className="favorite-title">{property.location.city} {property.location.street}</div>
+            <div className="favorite-title">{property?.location?.city} {property?.location?.street}</div>
           </div>
         ))}
       </div>

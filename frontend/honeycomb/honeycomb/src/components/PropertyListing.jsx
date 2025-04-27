@@ -66,7 +66,7 @@ const PropertyListing = () => {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    currentItem && (
+    (items.length > 0 && currentItem) ? (
       <Layout activeIcon="home">
         <div className="header">
           <div className="header-actions">
@@ -154,49 +154,49 @@ const PropertyListing = () => {
 
         <div className="shift-image-container">
           <img
-            src={currentItem.image_url[(imageIndex+1)% currentItem.image_url.length]}
+            src={currentItem?.image_url[(imageIndex+1)% currentItem?.image_url?.length]}
             alt="Property"
             className="property-image shift-image"
           />
         </div>
         <div className="shift-image-container shift-image-container2">
           <img
-            src={currentItem.image_url[(imageIndex+2)% currentItem.image_url.length]}
+            src={currentItem?.image_url[(imageIndex+2)% currentItem?.image_url?.length]}
             alt="Property"
             className="property-image shift-image"
           />
         </div>
         <div className="property-image-container">
           <img
-            src={currentItem.image_url[imageIndex]}
+            src={currentItem?.image_url[imageIndex]}
             alt="Property"
             className="property-image"
             onClick={() =>
-              setImageIndex((imageIndex + 1) % currentItem.image_url.length)
+              setImageIndex((imageIndex + 1) % currentItem?.image_url?.length)
             }
           />
 
           <div className="property-info-overlay">
             <h2 className="property-title">
-              {currentItem.location.city} {currentItem.location.street}
+              {currentItem?.location?.city} {currentItem?.location?.street}
             </h2>
             <h3 className="property-subtitle">
-              {currentItem.rent_details.rent_pricing_eur}€{" "}
-              {currentItem.rent_details.rent_type}
+              {currentItem?.rent_details?.rent_pricing_eur}€{" "}
+              {currentItem?.rent_details?.rent_type}
             </h3>
             <div className="property-features-tags">
               <span className="feature-tag">
-                {currentItem.outdoor_features.parking
-                  ? "Parking " + currentItem.outdoor_features.parking_type
+                {currentItem?.outdoor_features?.parking
+                  ? "Parking " + currentItem?.outdoor_features?.parking_type
                   : "No Parking"}
               </span>
               <span className="feature-tag">
-                {currentItem.property_characteristics.renovated
+                {currentItem?.property_characteristics?.renovated
                   ? "Renovated"
                   : "Not Renovated"}
               </span>
               <span className="feature-tag">
-                {!currentItem.rent_details.pet_friendly
+                {!currentItem?.rent_details?.pet_friendly
                   ? "Pet-Friendly"
                   : "No Pets"}
               </span>
@@ -243,6 +243,8 @@ const PropertyListing = () => {
           </button>
         </div>
       </Layout>
+    ) : (
+      <div>No properties found</div>
     )
   );
 };
