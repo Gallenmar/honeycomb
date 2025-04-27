@@ -1,6 +1,10 @@
-# FastAPI Boilerplate
+# HoneyComb Codebase
 
-A boilerplate FastAPI application with Docker support.
+#### Story
+Looking for a new home can feel like a full-time job. Endless scrolling through clunky listings, vague descriptions, low-quality photos, and an overwhelming amount of tabs open just to compare your top picks. And once something finally catches your eye? You still have to track down contact details, schedule a visit, and hope it lives up to the photos. We asked ourselves: Why hasn’t this process gotten smarter? What if we used AI to bring clarity and consistency to property listings—especially on widely used public marketplaces like SS.LV? What if finding your next home felt less like paperwork… and more like discovery?
+
+#### What it does
+We set out to redesign the property search experience by combining artificial intelligence with user-friendly design principles. Think: the convenience of a dating app meets the intelligence of a smart assistant.
 
 ## Features
 
