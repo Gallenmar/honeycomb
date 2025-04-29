@@ -1,8 +1,5 @@
 # HoneyComb Codebase
 
-![image](https://github.com/user-attachments/assets/75493d7c-d6d3-4a64-a7c5-816f2a957821) | ![image](https://github.com/user-attachments/assets/0aa2df45-e7d5-411e-8d4c-048d95bc6163) | ![image](https://github.com/user-attachments/assets/a61995db-0666-4f5d-aa17-b5fd5848f8c5) | ![image](https://github.com/user-attachments/assets/9d5e88ab-54dc-472c-9389-b2f09b6fdbdd)
-
-
 ## 🐝 Story
 
 Searching for a new home shouldn’t feel like running a marathon through a maze of half-baked listings and confusing interfaces. Yet too often, you’re left:
@@ -31,3 +28,11 @@ Think of HoneyComb as the convenience and personalization of your favorite match
 ---
 
 > Ready to find your next place with confidence? Dive in and let HoneyComb guide the way!
+
+---
+
+A project that was developed as a part of Hack4AI hakathon over 48 hours.
+
+![Honeycomb architecture](https://github.com/user-attachments/assets/826da704-d8b4-4c10-b6fa-be41d94f0e17)
+
+![image](https://github.com/user-attachments/assets/75493d7c-d6d3-4a64-a7c5-816f2a957821) ![image](https://github.com/user-attachments/assets/0aa2df45-e7d5-411e-8d4c-048d95bc6163) ![image](https://github.com/user-attachments/assets/a61995db-0666-4f5d-aa17-b5fd5848f8c5) ![image](https://github.com/user-attachments/assets/9d5e88ab-54dc-472c-9389-b2f09b6fdbdd)
